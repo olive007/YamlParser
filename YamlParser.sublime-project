@@ -1,0 +1,28 @@
+{
+	"name":"YamlParser",
+	"fastHeader":
+		{
+			"activated": "true",
+			"customTemplate": "/home/olive/git/github/YamlParser/headerTemplate/"
+		},
+	"folders":
+		[
+			{
+				"path": "./src",
+				"file_exclude_patterns": [ "*~", "#*#" ]
+			},
+			{
+				"path": "./include",
+				"file_exclude_patterns": [ "*~", "#*#" ]
+			}
+		],
+	"build_systems":
+		[
+			{
+				"name": "make",
+				"working_dir": "${project_path}",
+				"cmd": "make",
+				"shell": "true"
+			}
+		]
+}
